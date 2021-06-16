@@ -4,6 +4,18 @@
 /* In javascript; callback function is a function that is used as an argument of an other
  function or a function that is accepted by another function as its argument.*/
 
+let x = function() {
+    console.log("Mum")
+
+}
+let y = function(callback) {
+    console.log("God is good")
+    callback()
+
+}
+y(x) //this is a callback function which takes arrow function x as an argument  and output will be God is good and Mum
+
+
  console.log("God")
  setTimeout(() => { //This  is arrow function  is used as an argument of settimeout function; arrow function is a callback
      console.log("Family")
@@ -14,6 +26,18 @@
                             family (after 3 seconds)
 
 */
+
+
+function m(y) {
+    console.log("God")
+    y()
+}
+
+m(function y() {
+        console.log("Mum")
+    }) // Callback function and output will be God and Mum
+
+
 
  console.log("I like")
  var m = setInterval(() => {
