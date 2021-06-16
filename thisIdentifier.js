@@ -29,5 +29,7 @@ lisaLab.func();
 
   * Still on the 8th line; this.name which is not in string;As we know sing this meaning that you are reffering to the owner but this will only ive you access to that property only if the scope allows. Means the scope doesn't allow ; You will get undefined. This line; they were reffering to the name they don't have access to because of the scope which has limit.
 
-
+simply; the first function despite of whether it is self or this; has access to the property name of the object lisalab
+but for the second function ; it will have access to the property name of object lisalab if it is not his kwyword beacuse you can't refer to something 
+you don't have access to.this was used according to the output the one who wroteit was expecting.
 */

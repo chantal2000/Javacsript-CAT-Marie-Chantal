@@ -21,8 +21,14 @@ outer func: self.name = bar
 inner func: this.name = undefined
 inner func: self.name = bar
 
+Common reason:
+    /*simply; the first function despite of whether it is self or this; has access to the property name of the object lisalab
+but for the second function ; it will have access to the property name of object lisalab if it is not his keyword beacuse you can't refer to something 
+you don't have access to beacuse this keyword has special meaning or special purpose has limited scope(which we can see in second function).Though self=this in this function 'it doen't mean that it will also has special meaning or use as thiskeyword. */
 
-outer func: this.name = bar
+
+    //Reasons per each:
+    outer func: this.name = bar
     /* means that you are referring to the object this name
 belongs to or the owner which is lisalab and According to the scope ; This.name here has access 
   access to that object that 's  why 
