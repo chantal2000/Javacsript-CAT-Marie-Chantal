@@ -1,5 +1,8 @@
- /* In javascript; callback function is a function that is used as an argument of an other
-                                                                                                        function or a function that is accepted by another function as its argument.*/
+ 
+
+
+/* In javascript; callback function is a function that is used as an argument of an other
+ function or a function that is accepted by another function as its argument.*/
 
  console.log("God")
  setTimeout(() => { //This  is arrow function  is used as an argument of settimeout function; arrow function is a callback
